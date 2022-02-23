@@ -1,0 +1,102 @@
+body {
+	background-color:#EEEEEE;
+ 	color:#BC8CF2 ;
+ 	font-family: 'Montagu Slab', serif;
+
+}
+
+h1 {
+    color: #000000;
+    font-family: cooper black;
+    font-weight: 100;
+    letter-spacing: 8px;
+    font-size: 38px;
+
+}
+
+h2 {
+	color: #AA14F0;
+	font-family: cooper black;
+	font-size: 28 ;
+	font-weight: 80;
+}
+
+a { text-decoration: none;
+color:#BC8CF2 ;
+}
+a: hover{
+	color:#BC8CF2;
+}
+
+
+/* Custom design with class*/
+
+.container {
+width: 700px;
+margin: 40px;
+}
+
+
+@media (max-width: 780px) {
+	.container{
+	width: 600px;
+	}
+}
+
+
+
+@media (max-width: 500px) {
+	.container{
+	width: 400px;
+	}
+}
+
+.card-white {
+background-color: white;
+padding: 50px;
+margin: 30px 0px;
+box-shadow: 0px 10px 50px rgb(0 0 0 / 10%);
+border-radius: 10px;
+text-align: center;
+}
+
+.img-circle {
+border-radius: 50%;
+}
+
+img {
+	width: 200px;
+}
+
+.btn-purple {
+background-color:#BC8CF2;
+color: white;
+padding: 10px 15px;
+border-radius: 10px;
+}
+
+.btn-purple:hover {
+background-color: black;
+color: white;
+}
+
+.list-inline{
+list-style: none;
+padding-left: 0px;
+}
+
+.list-inline li {
+display: inline;
+padding: 10px;
+}
+
+.list-inline i {
+font-size: 30px;
+}
+
+/*Design adjustements using id (1% design remaining)*/
+
+#introduction p {
+margin-bottom: 40px;
+}
+
